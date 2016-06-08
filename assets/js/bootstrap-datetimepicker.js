@@ -1010,7 +1010,6 @@
                                 }
                             } else if (target.is('.year')) {
                                 this.viewDate.setUTCDate(1);
-                                this.vieDate.setUTCDate(1);
                                 year = parseInt(target.text(), 10) || 0;
                                 this.viewDate.setUTCFullYear(year);
                                 this.element.trigger({
